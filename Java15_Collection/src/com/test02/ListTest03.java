@@ -1,0 +1,27 @@
+package com.test02;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListTest03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<String> list = new ArrayList<String>();
+		
+		list.add("홍길동");
+		list.add("길길동");
+		list.add("신길동");
+	
+		list.add("남길동");
+		
+		list.add("최길동");
+		list.add("민길동");
+		
+		System.out.println(list);
+	}
+	
+	
+
+}
